@@ -7,7 +7,7 @@ categories:
 
 [Blackblaze](https://www.backblaze.com) wanted to provide unlimited storage to their customers for $5/month.
 
-<quoteblock>After looking at several overpriced commercial solutions, we decided to build our own custom Backblaze Storage Pods: 67 terabyte 4U servers for $7,867.</quoteblock>
+<blockquote>After looking at several overpriced commercial solutions, we decided to build our own custom Backblaze Storage Pods: 67 terabyte 4U servers for $7,867.</blockquote>
 
 [Here](https://www.backblaze.com/blog/petabytes-on-a-budget-how-to-build-cheap-cloud-storage/) they detail their process. You can even download a 3D model of their Storage Pod.
 
