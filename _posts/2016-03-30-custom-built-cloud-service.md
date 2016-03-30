@@ -13,5 +13,5 @@ categories:
 
 <blockquote>A long time ago we stopped measuring storage in our datacenter in gigabytes or terabytes and started measuring in petabytes.</blockquote>
 
-$5/month for unlimited storage is a tall order, but fulfilled with ingenuity.
+$5/month for unlimited storage is a tall order, but met with ingenuity.
 
