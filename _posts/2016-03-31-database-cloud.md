@@ -14,3 +14,5 @@ categories:
 They provide a break breakdown of their methodology, but the last line says it all **(Spoiler Alert!)**
 
 <blockquote>Google Cloud SQL High Performance instances performed significantly better than currently being offered Google Cloud SQL Standard Class Instances by a scale of 100-200%</blockquote>
+
+But don't let that spoil your interest. If you any amount of time in the db, you'll find [their post](https://www.pythian.com/blog/benchmarking-google-cloud-sql-instances/) chaulk full of goodies.
