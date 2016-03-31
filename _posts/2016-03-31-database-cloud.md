@@ -13,4 +13,4 @@ categories:
 
 They provide a break breakdown of their methodology, but the last line says it all **(Spoiler Alert!)**
 
-<blockquote>Google Cloud SQL High Performance instances performed significantly better than currently being offered Google Cloud SQL Standard Class Instances by a scale of **100-200%**</blockquote>
+<blockquote>Google Cloud SQL High Performance instances performed significantly better than currently being offered Google Cloud SQL Standard Class Instances by a scale of 100-200%</blockquote>
