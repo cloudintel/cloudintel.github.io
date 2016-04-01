@@ -13,14 +13,14 @@ This the rsync for your cloud servers,
 
 <blockquote>Each cloud storage system is slighly different. Rclone attempts to provide a unified interface to them, but some underlying differences show through.</blockquote>
 
-..*Google Drive
-..*Amazon S3
-..*Openstack Swift / Rackspace cloud files / Memset Memstore
-..*Dropbox
-..*Google Cloud Storage
-..*Amazon Cloud Drive
-..*Microsoft One Drive
-..*Hubic
-..*Backblaze B2
-..*Yandex Disk
-..*The local filesystem
+..* Google Drive
+..* Amazon S3
+..* Openstack Swift / Rackspace cloud files / Memset Memstore
+..* Dropbox
+..* Google Cloud Storage
+..* Amazon Cloud Drive
+..* Microsoft One Drive
+..* Hubic
+..* Backblaze B2
+..* Yandex Disk
+..* The local filesystem
