@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Armegeddon
+title: Armageddon
 categories:
 - blog
 ---
