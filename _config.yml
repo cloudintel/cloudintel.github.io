@@ -5,7 +5,7 @@ permalink:        pretty
 url:              http://www.cloudintel.com
 
 # Set to '' in case of hosting on `http://<your-github-name>.github.io`
-baseurl:          /
+#baseurl:          /
 
 title:            cloudIntel
 
@@ -19,10 +19,10 @@ title:            cloudIntel
 sidebar_tags:     [jekyll, hyde]
 
 # Fallback image and color if not overwritten for tag or post
-image:            /hydejack/public/img/nap.jpg
+image:            /public/img/nap.jpg
 color:            '#A85641'
 
-author:
+#author:
   #name:           'Florian Klampfer'
   #twitter:        qwtel
   #github:         qwtel
