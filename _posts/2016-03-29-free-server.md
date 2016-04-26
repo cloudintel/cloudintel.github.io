@@ -10,7 +10,7 @@ categories:
 
 <blockquote>Ubuntu Wily with Docker - 2 x86 64bits Cores - 2GB of RAM - 50GB SSD disk</blockquote>
 
-I have to admit I'm impressed with how fast it comes into play. Starter VPS is 2.99 euro's, so about $3.40 for All American Glory.
+I have to admit I'm impressed with how fast it comes into play. Starter VPS is 2.99 euro's, so about $3.40 in All American Glory.
 
 As of this writing they were still in the invite mode for registration. Hopefully I'll have more to come about this service.
 
