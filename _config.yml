@@ -1,34 +1,9 @@
-# Jekyll configuration
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "http://www.cloudintel.com/" # the base hostname & protocol for your site
 
-name: CloudIntel
-description: Small bits of Cloud
-
-# url is currently only used only for the RSS feed in feed.xml
-url: http://www.cloudintel.com
-
-# baseurl will often be '', but for a project page on gh-pages, it needs to
-# be the project name.
-# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
-#     run it like so: jekyll serve --baseurl=''
-baseurl: 'http://www.cloudintel.com'
-
-# This can be '' to hide the Github nav button
-github: 'cloudintel'
-
-# Set this to your UA-# value, or '' to disable the block completely
-gaaccount: 'UA-75779976-1'
-
-# Set this to your disqus shortname to enable comments. Note that the 'comments'
-# setting below must also be true. Individual posts can override 'comments' to
-# disable on a post-by-post basis
-disqus: ''
-#comments: true
-
-permalink: /:year/:month/:title
-paginate: 3
-
-highlighter: rouge
-markdown: kramdown
-gems: ['jekyll-paginate']
-
-exclude: ['README.md', 'LICENSE']
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "CNAME"
+  - "Gemfile"
+  - "Gemfile.lock"

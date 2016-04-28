@@ -1,14 +1,45 @@
-{% include header.html %}
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="container azul">
+      <header class="top row gutters{% if page.title == "Home" %} fadeInLeft animated{% endif %}">
+        <div class="col span_2 center">
+          <!-- TODO: add baseurl to the logo link -->
+          <a href="{{ site.url }}" id="logo" title="{{ site.title }}"
+             style="background-image: url({{site.baseurl}}/public/images/logo.png);"></a>
+        </div>
 
-<div class="container container-left">
-    <div class="row">
-        <div class="col-md-3 hidden-xs">
-            {% include sidebar.html %}
-        </div>
-        <div class="col-md-9">
-            {{ content }}
-        </div>
+      </header>
+
+      {{ content }}
+
+      <footer>
+        <p>
+          This domain, and its sister cloudintel.net, are for sale. Contact <a href="mailto:eric@cloudintel.com">Eric</a> to make an offer.
+        </p>
+      </footer>
     </div>
-</div>
 
-{% include footer.html %}
+    <!-- scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/public/js/jquery.fitvids.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("article").fitVids();
+      });
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75779976-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
