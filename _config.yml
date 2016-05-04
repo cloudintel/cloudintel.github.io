@@ -1,9 +1,31 @@
-baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "http://www.cloudintel.com/" # the base hostname & protocol for your site
+# General Jekyll Config
+# highlighter: pygments
+url: http://www.cloudintel.com
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 
-exclude:
-  - "README.md"
-  - "CHANGELOG.md"
-  - "CNAME"
-  - "Gemfile"
-  - "Gemfile.lock"
+
+# My variables
+#name: CloudIntel
+#description: Cloud Intelligence :: Stories from out there
+#google_analytics: UA-75779976-1
+#google_verification: null
+
+
+# File management
+#include: [".htaccess"]
+#exclude: ["README.md", "LICENSE"]
+
+
+# Sass
+#sass:
+#  style: :compressed
+#  sass_dir: _sass
+
+
+# Markdown
+#markdown: kramdown
+#kramdown:
+#  input: GFM
+#  hard_wrap: false
+#highlighter: rouge
