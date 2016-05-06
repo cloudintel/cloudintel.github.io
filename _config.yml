@@ -1,31 +1,23 @@
-# General Jekyll Config
-# highlighter: pygments
-url: http://www.cloudintel.com
-lsi: false
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+# Site settings
+title: CouldIntel
+email: eric@cloudintel.com
+description: "Small stories from the Cloud."
+#logo_location: "https://placeholdit.imgix.net/~text?txtsize=30&bg=F8F8F8&txtclr=002E62&txt=LOGO&w=100&h=100"
 
+#baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "" # the base hostname & protocol for your site
 
-# My variables
-#name: CloudIntel
-#description: Cloud Intelligence :: Stories from out there
-#google_analytics: UA-75779976-1
-#google_verification: null
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
 
+highlighter: pygments
 
-# File management
-#include: [".htaccess"]
-#exclude: ["README.md", "LICENSE"]
+#Other Global Configuration
+exclude: ['README.md']
 
+excerpt_separator: <!--more-->
 
-# Sass
-#sass:
-#  style: :compressed
-#  sass_dir: _sass
-
-
-# Markdown
-#markdown: kramdown
-#kramdown:
-#  input: GFM
-#  hard_wrap: false
-#highlighter: rouge
+#show the jumbotron header on index page
+show_blog_header: true

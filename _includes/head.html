@@ -1,31 +1,14 @@
-<!-- meta information -->
-<meta charset="utf-8">
-<meta name="description" {% if page.title == "Home" %}
-      content="{{ site.description }}" {% else %}
-      content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" {% endif %}>
-<meta name="author" content="{{ site.author }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="{{page.title}} {{page.excerpt | strip_html}} {{ site.description }}">
+  <title>{% if page.title %} {{ page.title }} - {{ site.title }} {% else %} {{ site.title }} {% endif %}</title>
 
-<!-- Enable responsiveness on mobile devices-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <!-- stylesheets -->
+  <link media="all" href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link media="all" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link media="all" rel="stylesheet" href="{{ "/assets/css/site.css" | prepend: site.baseurl }}">
 
-<!-- title -->
-<title>{{ page.title }} &middot; {{ site.data.brume.name }}</title>
-
-<!-- icons -->
-<link rel="shortcut icon" href="{{site.baseurl}}/public/images/favicon.ico" />
-
-<!-- stylesheets -->
-<link rel="stylesheet" href="{{site.baseurl}}/public/css/responsive.gs.12col.css">
-<link rel="stylesheet" href="{{site.baseurl}}/public/css/animate.min.css">
-<link rel="stylesheet" href="{{site.baseurl}}/public/css/main.css">
-
-<!-- Google fonts -->
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&subset=latin-ext">
-
-{% if site.paginate %}
-<!-- font Awesome -->
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-{% endif %}
-
-<!-- feed links -->
-<link rel="alternate" href="{{ site.url }}{{ site.baseurl }}/feed.xml" type="application/rss+xml" title="{{ site.name }}">
+</head>
